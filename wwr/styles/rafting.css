@@ -10,14 +10,15 @@
 .hero {
     position: relative;
 }
-.hero h1 {
-    position: absolute;
-    top: 5px;
-    left: 50px;
-    font-size: 2em;
+.hero article h2 {
     color: white;
-    background-color: var(--accent2-color);
     font-family: var(--font-primary);
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 30px gray;
 }
 
 .hero article {
@@ -31,6 +32,7 @@
 
 .hero article p {
     color: black;
+    padding: 10px 20px;
 }
 
 .hero img {
@@ -43,8 +45,7 @@
     float: right;
     width: 200px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    padding: 5px 5px;
     box-shadow: 0 0 30px gray;
 }
 
