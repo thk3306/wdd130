@@ -10,7 +10,7 @@
 .hero {
     position: relative;
 }
-.hero article h2 {
+.hero article h1 {
     color: white;
     font-family: var(--font-primary);
     font-size: 2em;
