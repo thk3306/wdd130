@@ -83,6 +83,22 @@ section {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact p{
+    grid-column: 2/4;
+    text-align: left;
+    font-family: var(--font-primary);
+    font-size: 1.5em;
+    color: black;
+}
+
 section img {
     width: 100%;
     height: auto;
@@ -146,5 +162,76 @@ nav.sociallinks {
     grid-column: 3/4;
     justify-self: end;
     padding-right: 40px;
+}
+
+form {
+    width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: grid;
+    font-family: var(--font-primary);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding : 1rem;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: navy;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--font-secondary);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+ 
+button:hover {
+    background-color: var(--primary-color);
 }
 
