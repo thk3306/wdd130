@@ -66,13 +66,20 @@
         </fieldset>
         <fieldset>
             <legend>Message</legend>
-            <div class ="form-item column1"> 
-            <label for="question1">Message Subject</label>
-            <select id="question1" name="question1">
-                <option value ="general">General Inquiry</option>
-                <option value ="reservation">Reservation Question</option>
-                <option value ="website">Website Suggestion</option>
-            </select>
+            <div class="form-item column1">
+                <p>Message Subject:</p>
+                <label>
+                    <input type="radio" id="general" name="question1" value="general">
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" id="reservation" name="question1" value="reservation">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" id="website" name="question1" value="website">
+                    Website Suggestion
+                </label>
             </div>
             
             <label for="feedback">Message:</label>
