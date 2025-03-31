@@ -198,7 +198,6 @@ form {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
-    align-self: right;
     justify-self: end;
 }
 
