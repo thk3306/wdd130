@@ -277,7 +277,7 @@ button:hover {
     background-color: var(--primary-color);
 }
 
-table {
+table{
     width: 100%;
     margin: 20px 0;
     background-color: var(--primary-color);
@@ -286,6 +286,9 @@ table {
     font-size: 1.2em;
     text-align: left;
     box-shadow: 0 0 30px gray;
-    
-
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
