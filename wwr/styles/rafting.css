@@ -246,9 +246,46 @@ button {
     padding: .75rem;
     font-size: 1.2rem;
 }
+
+.call_to_action button {
+    background-color: var(--primary-color);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: grid;
+    justify-self: center;
+}
+
+.call_to_action button:hover {
+    background-color: var(--secondary-color);
+}
+
+.call_to_action a {
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: 1.2em;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: .5rem;
+}
  
 button:hover {
     background-color: var(--primary-color);
 }
 
+table {
+    width: 100%;
+    margin: 20px 0;
+    background-color: var(--primary-color);
+    color: black;
+    font-family: var(--font-primary);
+    font-size: 1.2em;
+    text-align: left;
+    box-shadow: 0 0 30px gray;
+    
 
+}
